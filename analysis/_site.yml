@@ -1,7 +1,8 @@
-name: "Westerhof_2023"
+name: Westerhof_2023
 output_dir: ../docs
 navbar:
-  title: "Westerhof_2023"
+  title: Enhanced survival and low proliferation marks multifunctional virus specific
+    memory CD4 T cells
   left:
   - text: Home
     href: index.html
@@ -9,9 +10,14 @@ navbar:
     href: about.html
   - text: License
     href: license.html
+  right:
+  - icon: fab fa-github
+    text: Source code
+    href: https://github.com/JonathanNoonan/Westerhof_2023
 output:
   workflowr::wflow_html:
     toc: yes
     toc_float: yes
     theme: cosmo
     highlight: textmate
+    code_folding: hide
